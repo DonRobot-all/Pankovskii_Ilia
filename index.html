@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Паньковский Илья — Преподаватель.</title>
+<meta name="description" content="Резюме: преподаватель и разработчик. Навыки, опыт, проекты, сертификаты.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<nav class="sidenav" id="sidenav" aria-label="Разделы резюме">
+  <div class="sidenav-brand">
+    <span class="brand-mark">&lt;/&gt;</span>
+    <span class="brand-name">И.М.</span>
+  </div>
+  <ol class="sidenav-list">
+    <li><a href="#hero" class="active" data-num="00">Начало</a></li>
+    <li><a href="#about" data-num="01">О себе</a></li>
+    <li><a href="#skills" data-num="02">Навыки</a></li>
+    <li><a href="#experience" data-num="03">Опыт</a></li>
+    <li><a href="#education" data-num="04">Образование</a></li>
+    <li><a href="#projects" data-num="05">Проекты</a></li>
+    <li><a href="#certificates" data-num="06">Сертификаты</a></li>
+    <li><a href="#languages" data-num="07">Языки</a></li>
+    <li><a href="#extra" data-num="08">Доп. инфо</a></li>
+  </ol>
+</nav>
+
+<main>
+
+  <header class="hero" id="hero">
+    <p class="eyebrow">Резюме</p>
+    <h1 class="hero-name">Илья&nbsp;Паньковский</h1>
+    <p class="hero-role"><span class="dot">·</span>Преподаватель высшей категории по направлению: информатика, робототехника, программирование, 3D-печать <span class="dot">·</span></p>
+
+    <ul class="contact-list">
+      <li><a href="mailto:pankovskiy.im@gmail.com"><span class="ico">✉</span>pankovskiy.im@gmail.com</a></li>
+      <li><a href="https://github.com/DonRobot-all" target="_blank" rel="noopener"><span class="ico">⌥</span>github.com/DonRobot-all</a></li>
+      <li><a href="https://t.me/username" target="_blank" rel="noopener"><span class="ico">✈</span>t.me/username</a></li>
+      <li><a href="https://donrobot.ru" target="_blank" rel="noopener"><span class="ico"></span>https://donrobot.ru</a></li>
+    </ul>
+
+    <button class="pdf-btn" id="pdfBtn" type="button">
+      <span class="ico">⬇</span>Скачать PDF
+    </button>
+  </header>
+
+  <section class="section" id="about">
+    <h2><span class="num">01</span>О себе</h2>
+    <div class="section-body prose">
+      <p>Преподаю с 2017 года. Начинал с базовых детских конструкторов Wedo, после повышения квалификации перешёл на Ev3
+        после - на Arduino. Со временем постоянно повышал собственную квалификацию и добавлял новые направления.
+        Занимался организацией работы кружка, разработкой методических материалов и брошюр. 
+        Готовил ребят к соревнованиям, выставках и хакатонов различной сложности по робототехнике.
+        Какое-то время совмещал преподавание и разработку (разрабатывал программы на С++ для макетов созданных на Arduino). Разработал методические пособия
+        на базе платы Microbit, програмирования на Scratch/Construct, Python-основы программирования. Вместе с курсом на Python - SQL, HTML, CSS и Linux.
+        На протяжении 7 лет организовывал детский лагерь на берегу моря.
+        В 2025 году вышел в финал педагог года. <br>Последние два года по запросу учеников готовлю их для сдачи ОГЭ и ЕГЭ информатике для поступление в университеты РФ.<br>
+        Подтягиваю ребят по школьной программе математики 5-7 классов. А также начальной школы по программе Петерсона.</p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2><span class="num">02</span>Ключевые навыки</h2>
+    <div class="section-body">
+      <div class="skill-group">
+        <h3>Преподавание</h3>
+        <ul class="tag-list">
+          <li>Информатика (в т.ч. ЕГЭ)</li>
+          <li>Wedo</li>
+          <li>Ev3</li>
+          <li>MicroBit</li>
+          <li>Arduino</li>
+          <li>HTML / CSS</li>
+          <li>Scratch</li>
+          <li>Construct</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>Git / GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2><span class="num">03</span>Опыт преподавания и разработки</h2>
+    <div class="section-body">
+      <ol class="timeline">
+        <li>
+          <div class="timeline-date">2017 — наст. время</div>
+          <div class="timeline-content">
+            <h3>Руководитель и преподаватель</h3>
+            <p class="timeline-place">Донская Академия Робототехники DonRobot</p>
+            <p>Разработал методические материалы для курсов робототехники, программирования и информатики.</p>
+            <p>Подготавливал команды для участия в соревнованиях, конкурсах, выставках и хакатонов.</p>
+            <p>Организовывал лагерь технического творчества на берегу Чёрного моря.</p>
+            <p>Провёл большое количество занятий по робототехнике, программированию, электронике и 3D-печати.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-date">2021 — наст. время</div>
+          <div class="timeline-content">
+            <h3>Преподаватель</h3>
+            <p class="timeline-place">ЧОУ Прогимназия 63</p>
+            <p>Разработал методические занятия по робототехнике для начальной школы.</p>
+            <p>Проводил занятия по робототехнике, 3D моделированию и 3D-печати для 1-4 классов.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-date">2023 — 2024</div>
+          <div class="timeline-content">
+            <h3>Учитель графического дизайна</h3>
+            <p class="timeline-place">ЧОУ Азъ Буки Веди</p>
+            <p>Разработал программу по направлению графический дизайн.</p>
+            <p>Проводил уроки по графическому дизайну для 5–6 классов.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="gallery-block">
+        <div class="gallery-head">
+          <h3>Фотографии с занятий и проектов</h3>
+        </div>
+        <div class="gallery-scroll" id="expGallery" tabindex="0" aria-label="Прокручиваемая галерея фотографий, опыт">
+          <!-- слайды подставляются скриптом из assets/photos + локально добавленные -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <h2><span class="num">04</span>Образование</h2>
+    <div class="section-body">
+      <ol class="timeline">
+        <li>
+          <div class="timeline-date">2006-2011</div>
+          <div class="timeline-content">
+            <h3>Специалист, Юриспруденция</h3>
+            <p class="timeline-place">Ростовский Юридический Институт</p>
+          </div>
+        </li>
+        <li>
+        <div class="timeline-date">2012</div>
+          <div class="timeline-content">
+            <h3>Certificate of Achievement. A2 Elementary</h3>
+            <p class="timeline-place">Business School Hult International</p>
+          </div>
+        </li>
+        <li>
+        <div class="timeline-date">2017</div>
+          <div class="timeline-content">
+            <h3>Основы робототехники на базе конструктора Lego</h3>
+            <p class="timeline-place">Донской Государственный Технический Университет</p>
+          </div>
+        </li>
+        <li>
+        <div class="timeline-date">2018</div>
+          <div class="timeline-content">
+            <h3>Педагогика: деятельность педагога дополнительного образования детей и взрослых в объёме 524 часа</h3>
+            <p class="timeline-place">Центр подготовки государственных и муниципальных служащих. Профессиональная переподготовка.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Certificate of Completion of the Python Developer Professional Training Course. В объёме 440 часов.</h3>
+            <p class="timeline-place">АНО ДПО "Образовательные технологии Яндекса"</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2><span class="num">05</span>Проекты на GitHub</h2>
+    <div class="section-body">
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/DonRobot-all/DonRobot_algorithms" target="_blank" rel="noopener">
+          <h3>Алгоритмы ч1</h3>
+          <p>Часть практических материалов по направлению алгоритмы ч1.</p>
+          <span class="project-stack">Python</span>
+          <span class="project-link">github.com/DonRobot-all/DonRobot_algorithms →</span>
+        </a>
+        <a class="project-card" href="https://github.com/DonRobot-all/Algorithmic_training" target="_blank" rel="noopener">
+          <h3>Алгоритмы ч2</h3>
+          <p>Часть практических материалов по направлению алгоритмы ч2.</p>
+          <span class="project-stack">Python</span>
+          <span class="project-link">github.com/DonRobot-all/Algorithmic_training →</span>
+        </a>
+        <a class="project-card" href="https://github.com/DonRobot-all/students_homework" target="_blank" rel="noopener">
+          <h3>Django</h3>
+          <p>Практические материалы по направлению "создание сайтов на основе фреймворка Django".</p>
+          <span class="project-stack">Django</span>
+          <span class="project-link">github.com/DonRobot-all/students_homework →</span>
+        </a>
+        <a class="project-card" href="https://github.com/DonRobot-all" target="_blank" rel="noopener">
+          <h3>Все репозитории</h3>
+          <p>Полный список проектов и вклада в open-source на GitHub.</p>
+          <span class="project-link">github.com/DonRobot-all →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certificates">
+    <h2><span class="num">06</span>Курсы, сертификаты, достижения</h2>
+    <div class="section-body">
+      <ul class="cert-list">
+        <li><span class="cert-name">World Robot Olympiad. Сертификат помощника судьи соревновательного направления Hello Robot.</span><span class="cert-year">2018</span></li>
+        <li><span class="cert-name">Лаборатория инновационных образовательных технологий МФТИ. Строим роботов и другие устройства на Arduino. От светофора до 3D-принтера.</span><span class="cert-year">2019</span></li>
+        <li><span class="cert-name">Грамота управления образования города Ростове-на-Дону за успехи в развитии детского технического и декоративно-прикладного творчества и подготовку победителей и призёров Городской выставки.</span><span class="cert-year">2019</span></li>
+        <li><span class="cert-name">Благодарность министерства общего и профессионального образования Ростовской области. За профессиональную работу в составе жюри областной олимпиады профессионального мастерства.</span><span class="cert-year">2021</span></li>
+        <li><span class="cert-name">Благодарственное письмо управления образования города Ростове-на-Дону за успехи в развитии детского технического и декоративно-прикладного творчества и подготовку победителей и призёров Городской выставки.</span><span class="cert-year">2019</span></li>
+        <li><span class="cert-name">Центр немецкого языка и культуры ДГТУ. (Последний на данный момент. Сертификаты начальных уровней тоже имеются.). Курс немецкого языка B1.1.</span><span class="cert-year">2025</span></li>
+        <li><span class="cert-name">Сертификат финалиста конкурса на соискание премий лучшим педагогическим работникам. г.Ярославль</span><span class="cert-year">2025</span></li>
+      </ul>
+
+      <div class="gallery-block">
+        <div class="gallery-head">
+          <h3>Курсы, сертификаты, достижения</h3>
+        </div>
+        <div class="gallery-scroll" id="certGallery" tabindex="0" aria-label="Прокручиваемая галерея сертификатов">
+          <!-- слайды подставляются скриптом из assets/certificates + локально добавленные -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="languages">
+    <h2><span class="num">07</span>Языки</h2>
+    <div class="section-body">
+      <ul class="lang-list">
+        <li>
+          <span class="lang-name">Русский</span>
+          <span class="lang-level-label">родной</span>
+          <span class="lang-bar"><span style="width:100%"></span></span>
+        </li>
+        <li>
+          <span class="lang-name">Английский</span>
+          <span class="lang-level-label">B1 — Intermediate</span>
+          <span class="lang-bar"><span style="width:55%"></span></span>
+        </li>
+        <li>
+          <span class="lang-name">Немецкий</span>
+          <span class="lang-level-label">B1 — Intermediate</span>
+          <span class="lang-bar"><span style="width:55%"></span></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="extra">
+    <h2><span class="num">08</span>Дополнительная информация</h2>
+    <div class="section-body prose">
+      <p>
+        Женат. Есть ребёнок.
+        Права категории B и C (легковые/грузовые).
+        Имеется загранпаспорт. 
+        Готов к переезду.
+        Изучаю немецкий.
+        Занимаюсь социальными танцами.
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Паньковский Илья · резюме сгенерировано как страница на GitHub Pages</p>
+  </footer>
+
+</main>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+  <img class="lightbox-img" id="lightboxImg" alt="">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
