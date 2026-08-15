@@ -95,7 +95,10 @@ document.addEventListener('keydown', (e) => {
 const GALLERY_CONFIG = {
   expGallery: {
     items: [
-      // { src: 'assets/photos/lesson-1.jpg', alt: 'Занятие по робототехнике' },
+      { src: 'assets/photos/Shistrik.jpg', alt: 'Фотография с конкурса' },
+      { src: 'assets/photos/Shistrik2.jpg', alt: 'Фотография с конкурса' },
+      { src: 'assets/photos/Shistrik3.jpg', alt: 'Фотография с конкурса' },
+      { src: 'assets/photos/WRO1.jpg', alt: 'Фотография с конкурса' },
     ],
     emptyLabel: 'Фото с занятий и проектов скоро появятся здесь'
   },
